@@ -29,7 +29,7 @@ app.use(session({
 // CORS configuration
 app.use(cors({
   credentials: true,
-  origin: 'http://localhost:3000'
+  origin: 'https://data-traffic.vercel.app/'
 }))
 
 // Middleware
