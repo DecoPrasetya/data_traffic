@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Dashboard from './pages/Dashboard';
-import Login from './components/Login';
-import Users from './pages/Users';
-import Products from './pages/Products';
-import AddUsers from './pages/AddUsers';
-import EditUsers from './pages/EditUsers';
-import AddProducts from './pages/AddProducts';
-import EditProducts from './pages/EditProducts';
+import Dashboard from './api/Dashboard';
+import Login from './api/Login';
+import Users from './api/Users';
+import Products from './api/Products';
+import AddUsers from './api/AddUsers';
+import EditUsers from './api/EditUsers';
+import AddProducts from './api/AddProducts';
+import EditProducts from './api/EditProducts';
 
 function App() {
   return (
