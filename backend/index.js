@@ -29,7 +29,7 @@ app.use(session({
 // CORS configuration
 app.use(cors({
   credentials: true,
-  origin: process.env.CLIENT_URL || 'http://localhost:3000'
+  origin: 'http://localhost:3000'
 }))
 
 // Middleware
@@ -47,7 +47,7 @@ app.use((err, req, res, next) => {
 })
 
 // Server startup
-const PORT = process.env.APP_PORT || 5000
+const PORT = 5000
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
